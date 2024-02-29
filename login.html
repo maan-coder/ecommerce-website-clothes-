@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leather Arcade</title>
+  <style>
+  body {
+  background: url('') center/cover no-repeat;
+}
+
+    header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.signInButton {
+  background-color: #333;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.signInButton:hover {
+  background-color: #555;
+}
+.social-login button {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4267B2; /* Facebook blue color */
+  color: #fff;
+}
+
+.social-login button:hover {
+  background-color: #3a5795;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leather Arcade</h1>
+  </header>
+
+  <div class="container">
+    <form id="signInForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <!-- Wrap the button inside an anchor tag -->
+      <a href="/buy_now_men" class="signInButton" onclick="signIn()">Sign In</a>
+    </form>
+
+    <div class="social-login">
+      <button>Sign In with Facebook</button>
+      <button>Sign In with Google</button>
+    </div>
+
+    <div class="cta">
+      <p>New to Your Brand? <a href="signup.html">Sign Up</a></p>
+    </div>
+  </div>
+
+  <script>
+    function signIn() {
+      // Add your JavaScript code for signing in here
+      // You may use AJAX to communicate with the backend
+      // For simplicity, this example doesn't include backend integration
+      alert("Signing in...");
+    }
+  </script>
+</body>
+</html>

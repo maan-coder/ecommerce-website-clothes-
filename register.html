@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Leather Arcade</title>
+  <style>
+    /* Your existing styles */
+    /* ... */
+
+    .swiper-container {
+      margin-top: 20px;
+      overflow: hidden;
+    }
+
+    .swiper-slide {
+      text-align: center;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+      <h1>LEATHER ARCADE</h1>
+      <p>A COMPLETE FAMILY CLOTHING STORE</p>
+    </div>
+</header>
+
+<nav>
+    <div class="navbar-container">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+      </ul>
+    </div>
+</nav>
+
+<!-- Your existing content -->
+
+<div class="container">
+  <!-- Product Card 1 -->
+  <div class="product-card">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Add your product images here -->
+        <div class="swiper-slide"><img src="static/100.webp" alt="Product 1"></div>
+        <div class="swiper-slide"><img src="static/91.webp" alt="Product 2"></div>
+        <!-- Add more images as needed -->
+      </div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <p>Men's Collection</p>
+    <p>Explore our sophisticated and stylish men's collection, curated for the modern gentleman.</p>
+    <a href="product_page.html" class="buy-button">Buy Now</a>
+  </div>
+
+  <!-- Product Card 2 -->
+  <div class="product-card">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Add your product images here -->
+        <div class="swiper-slide"><img src="static/99.webp" alt="Product 1"></div>
+        <div class="swiper-slide"><img src="static/92.webp" alt="Product 2"></div>
+        <!-- Add more images as needed -->
+      </div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <p>Women's Collection</p>
+    <p>Embrace elegance with our diverse women's collection. Discover a range of fashionable outfits.</p>
+    <a href="product_page.html" class="buy-button">Buy Now</a>
+  </div>
+
+  <!-- Product Card 3 -->
+  <div class="product-card">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Add your product images here -->
+        <div class="swiper-slide"><img src="static/98.webp" alt="Product 1"></div>
+        <div class="swiper-slide"><img src="static/93.webp" alt="Product 2"></div>
+        <!-- Add more images as needed -->
+      </div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <p>Kids' Collection</p>
+    <p>Adorable and trendy, our kids' collection is designed for little fashion enthusiasts.</p>
+    <a href="product_page.html" class="buy-button">Buy Now</a>
+  </div>
+</div>
+<div class="product-card">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Add your product images here -->
+        <div class="swiper-slide"><img src="static/98.webp" alt="Product 1"></div>
+        <div class="swiper-slide"><img src="static/93.webp" alt="Product 2"></div>
+        <!-- Add more images as needed -->
+      </div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <p>Kids' Collection</p>
+    <p>Adorable and trendy, our kids' collection is designed for little fashion enthusiasts.</p>
+    <a href="product_page.html" class="buy-button">Buy Now</a>
+  </div>
+</div>
+
+
+<!-- Your existing form content -->
+<div class="form-container">
+  <!-- Form Content -->
+</div>
+
+<footer>
+  <p>&copy; 2024 Leather Arcade. All rights reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  // Initialize Swiper
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
+</body>
+</html>
